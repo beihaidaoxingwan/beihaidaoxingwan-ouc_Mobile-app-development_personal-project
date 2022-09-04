@@ -1,8 +1,0 @@
-<!--pages/main/main.wxml-->
-
-<image src="https://ts1.cn.mm.bing.net/th/id/R-C.b6e81b4c97471bec00b14cf55d25f193?rik=tGRjg5HhybV5Yw&riu=http%3a%2f%2fup.deskcity.org%2fpic%2f5f%2f2b%2fad%2f5f2bad23a365bbbee8c7894fe2902bc1.jpg&ehk=U8bji1OOK4%2bp6a4OYfeAbhhHuV%2fjb0oJDx7yx7RIbk8%3d&risl=&pid=ImgRaw&r=0" class="bgi"></image>
-
-<view class="info_row" scroll-y="true"  enable-flex="true" wx:for="{{item}}" wx:key="{{item.id}}" bindtap="goToDetail" data-id="{{item.id}}"> 
-  <image src="{{item.poster}}" class="info_img"></image>
-  <text class="info_text">{{item.name}}</text>
-</view>
