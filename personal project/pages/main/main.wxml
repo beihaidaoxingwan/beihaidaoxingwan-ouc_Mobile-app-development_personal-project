@@ -1,0 +1,8 @@
+<!--pages/main/main.wxml-->
+
+<image src="https://w.wallhaven.cc/full/9m/wallhaven-9mjoy1.png" class="bgi"></image>
+
+<view class="info_row" scroll-y="true"  enable-flex="true" wx:for="{{item}}" wx:key="{{item.id}}" bindtap="goToDetail" data-id="{{item.id}}"> 
+  <image src="{{item.poster}}" class="info_img"></image>
+  <text class="info_text">{{item.name}}</text>
+</view>
