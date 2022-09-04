@@ -21,7 +21,7 @@ Page({
       url: 'https://api.tianapi.com/cangtoushi/index', 
       method: 'POST', 
       data: {
-	  key:'eb9e017e7e58f844c9ddfde14d3edd7b',word:this.data.keyword
+	  key:'你申请的API',word:this.data.keyword
 	  }, 
       header: {
 	  'Content-Type':'application/x-www-form-urlencoded'
