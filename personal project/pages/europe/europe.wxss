@@ -1,0 +1,29 @@
+/* pages/europe/europe.wxss *//* pages/main/main.wxss */
+
+.bgi{
+  width: 100%;
+  border-bottom: 1rpx solid #98388b;/*设置底边*/
+}
+
+.info_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  min-height: 200rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #98388b;/*设置底边*/
+}
+
+.info_img{
+  width: 150rpx;
+  height:200rpx;
+}
+
+.info_text{
+  margin-left: 50rpx;
+  flex-grow: 1;
+  font-size: 70rpx;
+  font-family: kaiti;
+  font-weight: 800;
+}
