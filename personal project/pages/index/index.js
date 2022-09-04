@@ -27,7 +27,7 @@ Page({
       url: 'https://api.tianapi.com/qingshi/index', 
       method: 'POST', 
       data: {
-	  key:'eb9e017e7e58f844c9ddfde14d3edd7b'
+	  key:'你申请的API'
 	  }, 
       header: {
 	  'Content-Type':'application/x-www-form-urlencoded'
