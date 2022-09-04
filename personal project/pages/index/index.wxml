@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<!-- 设置登陆界面 -->
+<view class="myLogin">
+  <!-- 封装成块 -->
+  <block wx:if="{{isLogin}}" >
+    <view> 欢迎您，{{nickName}}</view>
+    <image src="{{src}}" class="img"></image>
+    <view>
+      <view class="poetry">{{poetry.content}}</view>
+      <view class="writer">——{{poetry.author}}</view>
+    </view>
+    <button bindtap="goto_History" class="capsule" plain="true"><image src="../../images/按钮3.png" mode='widthFix' class="img2"></image></button>
+  </block>
+  <button wx:else bindtap="getUserProfile" class="capsule" plain="true"><image src="../../images/按钮2.png" mode='widthFix' class="img2"></image></button>
+</view>
