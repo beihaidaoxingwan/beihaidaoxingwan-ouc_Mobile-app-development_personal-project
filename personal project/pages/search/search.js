@@ -20,7 +20,7 @@ Page({
       url: 'https://api.tianapi.com/flmj/index', 
       method: 'POST', 
       data: {
-	  key:'eb9e017e7e58f844c9ddfde14d3edd7b',type:this.data.keyword,num:'3'
+	  key:'你申请的API',type:this.data.keyword,num:'3'
 	  }, 
       header: {
 	  'Content-Type':'application/x-www-form-urlencoded'
