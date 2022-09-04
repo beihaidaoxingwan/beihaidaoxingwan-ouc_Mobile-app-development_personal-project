@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+
+  "navigationBarBackgroundColor": "#40bdff",   
+
+  "navigationBarTitleText": "搜索你想要的浪漫",  
+
+  "navigationBarTextStyle": "white"  
+}

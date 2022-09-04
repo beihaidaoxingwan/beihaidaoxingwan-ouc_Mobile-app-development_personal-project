@@ -1,0 +1,21 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <input type="text" placeholder="请输入关键词" bindinput="setword" maxlength="50" class="input1"/>
+  <button plain="true" bindtap="getPoetry"><image src="../../images/搜索.png" class="imgsearch"></image></button>
+  <view class="textsearch">搜索</view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" class="change">
+    <swiper-item>
+      <view class="sentence">{{poetry[0].content}}</view>
+      <view class="writer">——{{poetry[0].source}}</view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sentence">{{poetry[1].content}}</view>
+      <view class="writer">——{{poetry[1].source}}</view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sentence">{{poetry[2].content}}</view>
+      <view class="writer">——{{poetry[2].source}}</view>
+    </swiper-item>
+  </swiper>
+</view>
+

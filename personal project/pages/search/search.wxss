@@ -1,0 +1,55 @@
+/* pages/search/search.wxss */
+/* pages/personal/personal.wxss */
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://bpic.588ku.com/back_origin_min_pic/19/04/16/aa18bcb2b309d01b5eaa8f96f7edebe4.jpg!/fw/750/quality/99/unsharp/true/compress/true');
+  background-size: cover;
+}
+
+.input1{
+  border: 3rpx solid darkturquoise;
+  height: 100rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+button[plain]{ border:0 }
+
+.imgsearch{
+  width: 400rpx;
+  height: 400rpx;
+  position: relative;
+  margin-top:50rpx;
+}
+
+.textsearch{
+  position: absolute;
+  left: 268rpx;
+  top: 370rpx;
+  font-size: 60rpx;
+  font-family: kaiti;
+}
+
+.writer{
+  display: inline;
+  float: right;
+}
+
+.change{
+  height: 500rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 45rpx;
+  font-family: 宋体;
+  margin-top: 50rpx;
+}
+
+.sentence{
+  text-align: center;
+}
