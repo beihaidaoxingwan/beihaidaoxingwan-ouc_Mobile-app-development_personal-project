@@ -1,0 +1,16 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <view class="introduce">
+    <image src="{{person.poster}}"></image>
+    <view class="all">
+      <view class="name">{{person.name}}</view>
+      <view>({{person.date}})</view>
+      <view class="place">籍贯:{{person.place}}</view>
+    </view>
+  </view>
+    <view class="life">{{person.introduce}}</view>
+    <view class="more">代表作:</view>
+    <view class="work">{{person.work1}}</view>
+    <view class="work">{{person.work2}}</view>
+    <view class="work">{{person.work3}}</view>
+</view>
