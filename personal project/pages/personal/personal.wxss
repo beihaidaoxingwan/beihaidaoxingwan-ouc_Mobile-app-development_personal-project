@@ -1,0 +1,53 @@
+/* pages/personal/personal.wxss */
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://img.tukuppt.com/ad_preview/00/20/75/5f4c5041a0928.jpg!/fw/980');
+  background-size:cover
+}
+
+.input1{
+  border: 3rpx solid darkturquoise;
+  height: 100rpx;
+  text-align: center;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+button[plain]{ border:0 }
+
+.love{
+  width: 500rpx;
+  height: 500rpx;
+  position: relative;
+  margin-bottom: 50rpx;
+}
+
+.click{
+  top: 500rpx;
+  left: 450rpx;
+  width: 165rpx;
+  height: 180rpx;
+  position: absolute;
+}
+
+.tips{
+  left: 450rpx;
+  top: 680rpx;
+  position: absolute;
+}
+
+.change{
+  height: 500rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 120rpx;
+  margin-right: 90rpx;
+  font-size: 45rpx;
+  font-family: 宋体;
+  margin-top: 50rpx;
+}

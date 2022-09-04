@@ -1,0 +1,18 @@
+<!--pages/personal/personal.wxml-->
+<view class="container">
+  <input type="text" placeholder="请输入关键词" bindinput="setword" maxlength="50" class="input1"/>
+  <button bindtap="getInfo" plain="true"><image src="../../images/按钮4.png" class="love"></image></button>
+  <image src="../../images/点击图标.png" class="click"></image>
+  <view class="tips">点击生成诗句</view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" class="change">
+    <swiper-item>
+      <view>{{poetry[0].list}}</view>
+    </swiper-item>
+    <swiper-item>
+      <view>{{poetry[1].list}}</view>
+    </swiper-item>
+    <swiper-item>
+      <view>{{poetry[2].list}}</view>
+    </swiper-item>
+  </swiper>
+</view>
